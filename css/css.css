@@ -1,0 +1,272 @@
+* {
+	box-sizing: border-box;
+}
+.bar {
+	width: 100%;
+	height: 50px;
+	background-color: #2E8B57 ;
+	display: block;
+	position:fixed;
+	bottom: 100%;
+	margin-bottom:-50px;
+	z-index: 999;
+}
+.btnbar {
+	position: relative;
+	background-color: #3CB371;
+	margin-left:-4px;
+	left:4px;
+	height:50px;
+	width:120px;
+	border-radius: 0px;
+	border: 0 solid red;
+	border-left: 1px solid black;
+}
+.btnbarright{
+	border-right: 1px solid black;
+}
+.btnbar:hover {
+	background-color: #319163;
+
+	font-size: 15px;
+}
+.faceimg {
+	position: relative;
+	left:5%;
+	display:inline-block;
+	margin-top: 70px;
+	width: 100%;
+	height: 300px;
+}
+.tizertext {
+	display:inline-block;
+	margin-left:50%;
+	 vertical-align: top;
+}
+.texttop {
+	font-style:italic;
+	margin-top:120px;
+	font-size:40px;
+	text-align: center;
+}
+h3{font-size:30px; font-style:italic;}
+.photo{
+	width:500px;
+	height:300px;
+}
+.content {
+	padding: 50px 0;
+	margin-top: 50px;
+	background-color: rgba(211, 211, 211,0.2);
+	width:100%;
+}
+.textcard {
+	padding: 25px 20px 70px 20px;
+	display:inline-block;
+	margin-left:150px;
+	border: 1px solid black;
+	box-shadow: 0 0 10px;
+}
+.card {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+.centr
+{
+		margin-left:30%;
+}
+.star {
+		position: relative;
+		display:inline-block;
+		width:100%;
+}
+.Loopa {
+		display: inline-block;
+	height: 200PX;
+	float:right;
+}
+.Poopa {
+		display: inline-block;
+	height: 200PX;
+}
+.Zaloopa {
+		display: inline-block;
+	height: 200PX;
+}
+.textloop {
+	font-style: italic;
+	padding: 50px 0;
+	display: inline-block;
+	height:20px;
+	width:50%;
+	vertical-align: middle;
+	font-size: 25px;
+	margin-left:375px;
+}
+.textpoop {
+	font-style: italic;
+	padding: 50px 0;
+	margin-left:625px;
+	margin-top: 5px;
+	display: inline-block;
+	height:20px;
+	width:50%;
+	vertical-align: middle;
+	font-size: 25px;
+}
+.textzaloop {
+	font-style: italic;
+	padding: 50px 0;
+	margin-top: 0;
+	width:50%;
+	display: inline-block;
+	height:20px;
+	vertical-align: middle;
+	font-size: 25px;
+	margin-left:375px;
+}
+.loopapho {
+		display: inline-block;
+	float:left;
+	width:250px;
+	height:200px;
+}
+.poopapho {
+	float:right;
+	width:250px;
+	height:200px;
+}
+.zaloopapho {
+	float:left;
+	width:250px;
+	height:200px;
+}
+.textSla {
+	font-size: ;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size:40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+@media screen and (max-width:1536px)
+    {
+    .tizertext {
+	margin-left:36%;
+	}
+	.textcard {
+	margin-left:10%;
+}
+.textloop {
+	margin-left:150px;
+}
+.textpoop {
+	margin-left:400px;
+}
+.textzaloop {
+	margin-left:150px;
+}
+    }
+	
+@media screen and (max-width:1366px)
+    {
+    .tizertext {
+	margin-left:15%;
+	}
+	.textcard {
+	margin-left:25%;
+}
+	.textcardtop {
+		margin-top:7%;
+	}
+	.textloop {
+	margin-left:10px;
+	}
+	.textpoop {
+	margin-left:260px;
+	}
+	.textzaloop {
+	margin-left:10px;
+	}
+    }
+@media screen and (max-width:1024px)
+    {
+    .tizertext {
+	margin-left:5%;
+	}
+		.textcardtop {
+		margin-top:10%;
+	}
+	.textloop {
+	margin:0;
+		padding: 0;
+	}
+	.textpoop {
+	margin: 0;
+		padding: 0;
+	}
+	.textzaloop {
+	margin: 0;
+	padding: 0;
+	}
+    }
+@media screen and (max-width:896px)
+{
+    .tizertext {
+	margin-left: 0;
+	}
+		.textcardtop {
+		margin-top:10%;
+	}
+	.loopapho {
+		display:block;
+	}
+	.poopapho {
+	display:block;
+	}
+	.zaloopapho {
+	display:block;
+	}
+}
+	@media screen and (max-width:812px) {
+    .tizertext {
+	margin-top: 10px;
+	margin-left: 0;
+	}
+	.faceimg {
+	text-align:center;
+	overflow:visible;
+	}
+	.content {
+	margin-top: 250px;
+}
+	.textcard {
+	margin-left:16%;
+}
+    }
+
+	@media screen and (max-width:760px)
+    {
+    .tizertext {
+	margin-left: 0;
+	}
+    }
+	@media screen and (max-width:667px)
+    {
+    .tizertext {
+	margin-left: 0;
+	}
+    }
+	@media screen and (max-width:640px)
+    {
+    .tizertext {
+	margin-left: 0;
+	}
+		.textcard {
+	margin-left:10%;
+	}
+	.textcardtop {
+		margin-top:10%;
+	}
+    }
